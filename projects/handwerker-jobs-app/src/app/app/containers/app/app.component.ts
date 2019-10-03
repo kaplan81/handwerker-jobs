@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
-  title = 'My Hammer App';
+  title = 'MyHammer App';
   jobs$: Observable<fromRootModels.Job[]>;
 
   constructor(private jobsService: fromRootServices.JobsService) {}

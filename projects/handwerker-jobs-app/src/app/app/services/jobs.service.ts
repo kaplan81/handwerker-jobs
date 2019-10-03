@@ -14,6 +14,10 @@ export class JobsService {
   loadJobs(): Observable<fromRootModels.Job[]> {
     return this.jobsFileService
       .jobsFile()
-      .pipe(map((jobsFile: fromRootModels.JobsFile) => jobsFile.body));
+      .pipe(
+        map((jobsFile: fromRootModels.JobsFile) =>
+          jobsFile.body.filter((job: fromRootModels.Job) => job.state === 'active')
+        )
+      );
   }
 }
