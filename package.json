@@ -30,11 +30,11 @@
       }
     },
     "moduleNameMapper": {
-      "@handwerker-jobs-core/(.*)": "<rootDir>/projects/handwerker-jobs/src/app/_core/$1",
-      "@handwerker-jobs-shared/(.*)": "<rootDir>/projects/handwerker-jobs/src/app/_shared/$1",
-      "@handwerker-jobs-app/(.*)": "<rootDir>/projects/handwerker-jobs/src/app/app/$1",
-      "@handwerker-jobs-assets/(.*)": "<rootDir>/projects/handwerker-jobs/src/assets/$1",
-      "@handwerker-jobs-environments/(.*)": "<rootDir>/projects/handwerker-jobs/src/environments/$1"
+      "@handwerker-jobs-core/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/app/_core/$1",
+      "@handwerker-jobs-shared/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/app/_shared/$1",
+      "@handwerker-jobs-app/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/app/app/$1",
+      "@handwerker-jobs-assets/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/assets/$1",
+      "@handwerker-jobs-environments/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/environments/$1"
     }
   },
   "dependencies": {
