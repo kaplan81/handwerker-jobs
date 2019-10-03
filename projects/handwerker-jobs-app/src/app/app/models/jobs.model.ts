@@ -1,10 +1,10 @@
-interface Jobs {
+export interface JobsFile {
   errno: number;
   error: string;
   body: BodyData[];
 }
 
-interface BodyData {
+export interface BodyData {
   id: string;
   title: string;
   zip_code: string;
@@ -20,11 +20,11 @@ interface BodyData {
   created_at: string;
 }
 
-interface Category {
+export interface Category {
   id: string;
 }
 
-interface Counter {
+export interface Counter {
   messages_total: number;
   messages_unread: number;
 }
