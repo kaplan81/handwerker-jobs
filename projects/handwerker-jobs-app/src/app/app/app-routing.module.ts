@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import * as fromRootEnums from '@handwerker-jobs-app/enums';
 
-export const featurePath: fromRootEnums.RouteFeatureET = fromRootEnums.RouteFeature.feature;
-export const redirectTo = `/${featurePath}`;
+// export const featurePath: fromRootEnums.RouteFeatureET = fromRootEnums.RouteFeature.feature;
+export const redirectTo = `/`;
 
 const routes: Routes = [
   // {
@@ -11,10 +10,10 @@ const routes: Routes = [
   //   loadChildren: () => import('../feature/feature.module').then(mod => mod.FeatureModule),
   //   path: featurePath
   // },
-  {
-    path: fromRootEnums.RouteCommons.wildcard,
-    redirectTo
-  }
+  // {
+  //   path: fromRootEnums.RouteCommons.wildcard,
+  //   redirectTo
+  // }
 ];
 
 @NgModule({

@@ -5,7 +5,7 @@ import { TestBed } from '@angular/core/testing';
 import * as fromRootModels from '@handwerker-jobs-app/models';
 import { ErrorService } from '@handwerker-jobs-core/error/error.service';
 import { jobsFileparams, JobsFileService } from '@handwerker-jobs-core/jobs-file/jobs-file.service';
-import * as jobsFile from './jobs.json';
+import * as jobsFile from './jobs.spec.json';
 
 describe('ConfigFileService', () => {
   let httpClient: HttpClient;

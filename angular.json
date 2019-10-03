@@ -49,7 +49,7 @@
               "projects/handwerker-jobs-app/src/favicon.ico",
               "projects/handwerker-jobs-app/src/assets",
               {
-                "glob": "config.json",
+                "glob": "jobs.json",
                 "input": "projects/handwerker-jobs-app",
                 "output": "/"
               }
