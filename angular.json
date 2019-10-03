@@ -54,7 +54,10 @@
                 "output": "/"
               }
             ],
-            "styles": ["projects/handwerker-jobs-app/src/styles.scss"],
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "projects/handwerker-jobs-app/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
