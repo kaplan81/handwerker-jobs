@@ -34,7 +34,8 @@
       "@handwerker-jobs-shared/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/app/_shared/$1",
       "@handwerker-jobs-app/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/app/app/$1",
       "@handwerker-jobs-assets/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/assets/$1",
-      "@handwerker-jobs-environments/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/environments/$1"
+      "@handwerker-jobs-environments/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/environments/$1",
+      "@handwerker-jobs-testing/(.*)": "<rootDir>/projects/handwerker-jobs-app/src/testing/$1"
     }
   },
   "dependencies": {

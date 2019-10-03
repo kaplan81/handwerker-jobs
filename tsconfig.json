@@ -19,7 +19,8 @@
       "@handwerker-jobs-shared/*": ["./projects/handwerker-jobs-app/src/app/_shared/*"],
       "@handwerker-jobs-app/*": ["./projects/handwerker-jobs-app/src/app/app/*"],
       "@handwerker-jobs-assets/*": ["./projects/handwerker-jobs-app/src/assets/*"],
-      "@handwerker-jobs-environments/*": ["./projects/handwerker-jobs-app/src/environments/*"]
+      "@handwerker-jobs-environments/*": ["./projects/handwerker-jobs-app/src/environments/*"],
+      "@handwerker-jobs-testing/*": ["./projects/handwerker-jobs-app/src/testing/*"]
     }
   },
   "angularCompilerOptions": {

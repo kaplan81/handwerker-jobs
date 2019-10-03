@@ -8,7 +8,8 @@
       "@handwerker-jobs-shared/*": ["./src/app/_shared/*"],
       "@handwerker-jobs-app/*": ["./src/app/app/*"],
       "@handwerker-jobs-assets/*": ["./src/assets/*"],
-      "@handwerker-jobs-environments/*": ["./src/environments/*"]
+      "@handwerker-jobs-environments/*": ["./src/environments/*"],
+      "@handwerker-jobs-testing/*": ["./src/testing/*"]
     }
   },
   "files": ["src/main.ts", "src/polyfills.ts"],
