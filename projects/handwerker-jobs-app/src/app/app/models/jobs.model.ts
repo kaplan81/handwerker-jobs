@@ -1,10 +1,10 @@
 export interface JobsFile {
   errno: number;
   error: string;
-  body: BodyData[];
+  body: Job[];
 }
 
-export interface BodyData {
+export interface Job {
   id: string;
   title: string;
   zip_code: string;
