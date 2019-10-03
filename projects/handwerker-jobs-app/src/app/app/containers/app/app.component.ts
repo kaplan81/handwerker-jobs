@@ -5,7 +5,6 @@ import { Observable } from 'rxjs';
 
 @Component({
   selector: 'hdj-root',
-  styleUrls: ['./app.component.scss'],
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {

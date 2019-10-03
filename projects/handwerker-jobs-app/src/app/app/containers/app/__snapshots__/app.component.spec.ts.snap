@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should match snapshot 1`] = `
+<hdj-root
+  jobs$={[Function Observable]}
+  jobsService={[Function JobsServiceMock]}
+  title={[Function String]}
+>
+  <hdj-jobs
+    ng-reflect-jobs="[object Object],[object Object"
+    ng-reflect-title="MyHammer App"
+  />
+</hdj-root>
+`;
